@@ -12,6 +12,10 @@
 - Uso de librería para iconos.
 - Los iconos para redes sociales y otros han sido extraídos de este sitio web, importado mediante cdn
 
+>Google Fonts
+- Uso de librería para fuentes (tipografía).
+- Importado mediante cdn colocado dentro de la etiqueta head.
+
 ***
 
 Imágenes de películas extraídas del sitio oficial de www.cinesa.es
