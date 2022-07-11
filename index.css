@@ -1,0 +1,499 @@
+
+		*{
+			padding:0px;
+			margin:0px;
+			box-sizing: border-box;	
+		}
+		@font-face {
+		    font-family: "SF PRO DISPLAY";
+		    src: url("SFPRODISPLAYREGULAR.OTF");
+		}
+		body{
+			height: 100%;
+		}
+		#header{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+		#footer{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+		.contenedor{
+			width: 1300px;
+			
+		}
+
+		.fa-share-alt{
+			font-size: 19px;
+			margin-left: 20px;
+			margin-bottom: 3px;
+			color: lightgray;
+		}
+		.fa-share-alt:hover{
+			color: #0067EC;
+		}
+		.fa-star{
+			font-size: 15px;
+			color: lightgray;
+			
+			
+		}
+		.fa-star:hover{
+			color: #ECD108;
+			padding: 10 20 30 40px;
+
+		}
+
+		.container{
+			background-color: #E7E7E7;
+			display: flex;
+			justify-content: center;
+			width: 1600px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height:850px;
+			background-image: url("imagenes/fondo_peli.jpg");
+
+
+			
+		}
+		.fondogris{
+			background-color: #E7E7E7;
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 350px;
+			background-repeat: no-repeat;
+		
+				
+		}
+		.contenido{
+			width: 1300px;
+			padding-top: 150px;
+			
+
+			}
+		.recoge_divs{
+			background-color: #E7E7E7;
+			height:100%;
+			width: 82%;
+			margin:0 auto;
+			padding-top: 20px;
+			
+			
+		}
+		.ordenar_por{
+			display: flex;
+			font-weight: bold;
+			font-family: 'Barlow Condensed', cursive;
+			list-style: none;
+			justify-content: flex-end;
+			margin-top: 10px;
+		}
+		.ordenar_por li{
+			padding: 10px;
+			margin: 10px;
+			
+			
+		}
+		.txt{
+			color: #0076EC;
+		}
+		.top{
+			color: white;
+			background-color: #0076EC;
+		}
+		.az:hover{
+			background-color: #0076EC;
+			color: white;
+		}
+		
+		
+
+		.caja_targetas{
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 20px;
+			grid-column-gap: 18px;
+			grid-row-gap: 18px;
+			justify-content: center;
+		}
+
+		.pelicula{
+			width: 245px;
+			height: 400px;
+			background-size: cover;
+			border-radius: 4px;
+			background-color: white;
+			align-items: center;
+			font-family: 'Barlow Condensed', cursive;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.valoracionpeli p{
+			color: black;
+			margin-right: 25px;
+		}
+		.titulopeli{
+			width: 83%;
+			height: 12%;
+			color:#578FE7;
+			margin: auto;
+			display: flex;
+			align-items: center;
+		}
+		.imgpeli{
+			background-size: cover;
+			
+			width: 85%;
+			height: 286px;
+			margin:auto;
+		}
+		
+		.pelicula1 .imgpeli{
+			background-image: url("imagenes/muerte_nilo.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.pelicula2 .imgpeli{
+			background-image: url("imagenes/casate_conmigo.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.pelicula3 .imgpeli{
+			background-image: url("imagenes/coda.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.pelicula4 .imgpeli{
+			background-image: url("imagenes/hija_oscura.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.pelicula5 .imgpeli{
+			background-image: url("imagenes/pasajera.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.pelicula6 .imgpeli{
+			background-image: url("imagenes/primavera.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.pelicula7 .imgpeli{
+			background-image: url("imagenes/spirit.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.pelicula8 .imgpeli{
+			background-image: url("imagenes/potter.jpg");
+			background-size: cover;
+			
+			width: 206px;
+			height: 286px;
+		}
+		.valoracionpeli{
+			margin: auto;
+			
+			height: 12%;
+			width: 82%;
+			display: flex;
+			justify-content: space-between;
+			font-size: 12px;
+			align-items: center;
+		}
+		.estrellas{
+			display: flex;
+			list-style: none;
+		}
+		
+		.valoracionpeli img{
+			width: 20px;
+		}
+		.caja_divs{
+			display: flex;
+			width: 100%;
+			flex-wrap: wrap;
+			justify-content: space-around;
+
+
+		}
+		.caja_divs li{
+			display: flex;
+			border: lightgray;
+			list-style: none;
+			background-color:lightgray;
+			color:#0067EC;
+			font-family: 'Barlow Condensed', cursive;
+			font-weight: bold;
+			font-size: 15px;
+			width: 95px;
+			height:40px;
+			justify-content: center;
+			align-items: center;
+			padding: 2px;
+			
+		}
+
+		.caja_divs li:hover{
+			color:white;
+			background-color:white;
+		}
+		.caja_divs li a{
+			text-decoration: none;
+			color:#0067EC;
+		}	
+
+		header{
+
+			height: 140px;
+			/*border: solid 4px steelblue;*/
+			font-family: SF PRO DISPLAY;
+		}
+
+		footer{
+			padding-top: 40px;
+			font-family: SF PRO DISPLAY;
+			height: 100%;
+			background-color: white;
+			
+	
+		}
+
+		footer .columna li{
+			font-size: 14px;
+		}
+
+	
+		.iconos_rrss{
+			width: 60%;
+			justify-content: center;
+			margin: 0 auto;
+			height: 80px;
+
+		}
+		.bloque_iconos_rrss{
+			display: flex;
+			justify-content: space-around;
+			width:100%;
+			list-style: none;
+			
+		}
+		.bloque_iconos_rrss li{
+			
+			height: 50px;
+			width: 50px;
+		}
+		.icono: hover{
+			opacity: 0.8;
+		}
+/*************+ICONOS CON BACKROUND DE LAS REDES SOCIALES con hover */
+		.icono_tk:hover{
+			background-image: url("imagenes/tiktok_hover.png");
+			background-size: cover;
+		}
+		.icono_wh:hover{
+			background-image: url("imagenes/whatsapp_hover.png");
+			background-size: cover;
+
+		}
+		.icono_fb:hover{
+			background-image: url("imagenes/facebook_hover.png");
+			background-size: cover;
+		}
+		.icono_tw:hover{
+			background-image: url("imagenes/twitter_hover.png");
+			background-size: cover;
+		}
+		.icono_ins:hover{
+			background-image: url("imagenes/instagram_hover.png");
+			background-size: cover;
+		}
+		.icono_yt:hover{
+			background-image: url("imagenes/youtube_hover.png");
+			background-size: cover;
+		}
+		
+
+	/*************+ICONOS CON BACKROUND DE LAS REDES SOCIALES*/
+		.icono_tk{
+			background-image: url("imagenes/tiktok.png");
+			background-size: cover;
+		}
+		.icono_wh{
+			background-image: url("imagenes/whatsapp.png");
+			background-size: cover;
+
+		}
+		.icono_fb{
+			background-image: url("imagenes/facebook.png");
+			background-size: cover;
+		}
+		.icono_tw{
+			background-image: url("imagenes/twitter.png");
+			background-size: cover;
+		}
+		.icono_ins{
+			background-image: url("imagenes/instagram.png");
+			background-size: cover;
+		}
+		.icono_yt{
+			background-image: url("imagenes/youtube.png");
+			background-size: cover;
+		}
+		.content{
+			display: flex;
+			padding: 20px;
+			justify-content:  center;
+			justify-content: space-around;
+			width: 90%;
+			margin: 0 auto;
+			height: 100%;
+			
+		}
+
+		h3{
+			color:#283086;
+			font-size: 18px;
+		}
+		
+		.columna li{
+			list-style: none;
+			margin-top: 20px;
+		}
+		.columna a{
+			text-decoration: none;
+			color:#888787;
+		}
+		.columna a:hover{
+			color:gray;
+			text-decoration: underline;
+		}
+		.check{
+			text-decoration: underline;
+			color:#283086;
+		}
+		.descargas{
+			
+		}
+		.icono_store:hover{
+			opacity:0.4;
+		}
+
+
+/********************************HEADER menu top 1****************************/
+		.lista_registro{
+			display: flex;
+			text-align: right;
+			align-items: center;
+			list-style: none;
+			font-family: helvetica;
+			justify-content: right;
+			font-family: SF PRO DISPLAY;
+			/*border: solid 3px purple;*/
+		}
+		.caja_registro{
+			display: flex;
+			justify-content: right;
+			margin-bottom: 40px;
+			
+		}
+		.list_element{
+			margin-top: 5px;
+			margin-right: 20px;
+
+		}
+		.lista_registro a{
+			text-decoration: none;
+			color: black;
+
+		}
+		.icono_cinesa{
+			width: 30px;
+		}
+		.account{
+			border-left: 0.5px solid black;
+			padding-left: 20px;
+		}
+		.list_element a:hover{
+			text-decoration: underline;
+			color:skyblue;
+		}
+		.caja_main_menu{
+			display: flex;
+			align-items: flex-start;
+			justify-content: center;
+			
+			/*border:solid 6px red;*/
+			
+
+		}
+
+/********************************HEADER menu top 2****************************/
+
+		.menu_principal{
+			display: flex;
+			height: 60px;
+			width: 95%;
+			border-bottom: solid #ECD108 3px;
+			justify-content: space-around;
+			justify-content: center;
+			
+
+		}
+
+		.menu_principal ul{
+			display: flex;
+		    width: 100%;   
+		    font-family: helvetica; 
+			text-align: center;
+			padding: 5px;
+			align-items: center;
+			font-family: SF PRO DISPLAY;
+		}
+
+		.menu_principal li{
+			list-style: none;
+			width: 100%;
+			padding: 20px;
+			margin-bottom: 5px;
+		}
+
+		.menu_principal a{
+			text-decoration: none;
+			color: black;
+			font-size: 17px;
+
+		}
+		.menu_principal li:hover{
+			background-color: #ECD108;
+		}
+		.logocinesamenutop2{
+			display: flex;
+			width: 230px;
+			margin-top: 7px;
+			margin-bottom: 15px;
+			align-items: center;
+
+		}
+
+		
